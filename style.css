@@ -1,0 +1,63 @@
+menu{
+    text-align:right;
+}
+
+.titulo-card{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:#3C3633;
+}
+
+.sobre-café{
+    color: #3C3633;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.carousel-caption h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:#EEEDEB;
+    text-shadow: 2px 2px 2px black;
+}
+
+.navbar-collapse a{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#E0CCBE;
+    margin-right: 5px;
+}
+
+.navbar{
+    background-color:#3C3633;
+}
+
+.container-fluid .navbar-brand{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-body{
+    background-color:#747264;
+}
+
+.col .card{
+    color:#EEEDEB;
+}
+
+.col .card-footer{
+    background-color:#3C3633;
+}
+
+.rodapé{
+    background-color: #3C3633;
+    color: #E0CCBE;
+}
+
+.cesta{
+    text-align: center;
+    background-color: #747264;
+    
+}
