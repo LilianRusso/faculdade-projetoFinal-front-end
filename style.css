@@ -1,19 +1,25 @@
-menu{
+.menu{
     text-align:right;
 }
 
-.titulo-card{
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    color:#3C3633;
+.navbar{
+    background-color: #43766C;
 }
 
-.sobre-café{
-    color: #3C3633;
-    font-size: 20px;
+.container-fluid .navbar-brand{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-collapse a{
+    font-size: 18px;
     font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    margin: 10px;
+    color:#EEEDEB;
+    margin-right: 5px;
+}
+
+.nav-item .dropdown-menu{
+    background-color: #43766C;
 }
 
 .carousel-caption h1{
@@ -23,39 +29,51 @@ menu{
     text-shadow: 2px 2px 2px black;
 }
 
-.navbar-collapse a{
-    font-size: 18px;
+.ofertas{
+    color:black;
     font-family: 'Times New Roman', Times, serif;
-    color:#E0CCBE;
-    margin-right: 5px;
-}
-
-.navbar{
-    background-color:#3C3633;
-}
-
-.container-fluid .navbar-brand{
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-align: center;
+    background-color:#EEEDEB;
 }
 
 .card-body{
-    background-color:#747264;
+    background-color:#B19470;
 }
 
 .col .card{
-    color:#EEEDEB;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.col .card-footer{
-    background-color:#3C3633;
+.off{
+    background-color:#E0CCBE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sobre-café{
+    color: black;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sobre-titulo{
+    text-align: center;
+}
+
+.figure{
+    margin: 21px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .rodapé{
-    background-color: #3C3633;
-    color: #E0CCBE;
-}
-
-.cesta{
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#43766C;
+    color: #EEEDEB;
 }

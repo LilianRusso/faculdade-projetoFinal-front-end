@@ -6,6 +6,7 @@
     <title>Café Alpino</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
 </head>
 
 <body>
@@ -14,7 +15,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Café Alpino</a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation ">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           
@@ -32,7 +33,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Delivery</a>
               </li>
-            </ul>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+             </ul>
           </div>
         </div>
       </nav>
@@ -47,21 +56,21 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="carousel/café1.png" class="d-block w-100" alt="Café em grãos">
+            <img src="carousel/carrousel1.png" class="d-block w-100" alt="Café em grãos">
             <div class="carousel-caption d-none d-md-block">
               <h1>Contamos com as melhores ofertas para você e sua família!</h1>
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="carousel/café2.png" class="d-block w-100" alt=" Três xícaras de café">
+            <img src="carousel/carrousel2.png" class="d-block w-100" alt=" Três xícaras de café">
             <div class="carousel-caption d-none d-md-block">
               <h1>Também somos delivery!</h1>
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="carousel/café3.png" class="d-block w-100" alt="Xícara de café">
+            <img src="carousel/carrousel3.png" class="d-block w-100" alt="Xícara de café">
             <div class="carousel-caption d-none d-md-block">
               <h1>Faça já o seu pedido!</h1>
             </div>
@@ -79,68 +88,97 @@
       </div>
 
     <br><br>
-
-    <div class="titulo-card">
-    <h2>Ofertas da semana de até 10% Off</h2>
+    
+      <div class="ofertas">
+      <h1>Ofertas da semana!</h1>
+      <h4>Não perca as promoções semanais, descontos de até 10% Off</h4>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/coffee.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title">Café expresso</h4>
-              <h1>R$20,00</h1>
-              <p class="card-text">O expresso pode ser apreciado puro, como um shot único, ou como base para uma variedade de outras bebidas de café, como cappuccinos, lattes e macchiatos. Sua versatilidade permite que os baristas e os amantes de café explorem uma ampla gama de opções de sabores e combinações.</p>
-            </div>
-            <div class="cesta bg-success">
-              <a href="#" class="btn btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Ir para as promoções</a>
-          </div>
-            <div class="card-footer">
-              <small class="text-white">5% Off</small>
-            </div>
-          </div>
-        </div>
+    <br>
 
+      <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="img/pancakes.jpg" class="card-img-top" alt="...">
+            <img src="img/coffee.jpg" class="card-img-top" alt="Café Expresso">
             <div class="card-body">
-              <h4 class="card-title">Panqueca de frutas vermelhas e mel</h4>
-              <h1>R$24,90</h1>
-              <p class="card-text">As frutas vermelhas, como morangos, framboesas, mirtilos e amoras, trazem um sabor naturalmente doce e ácido que complementa perfeitamente a suavidade da panqueca. O mel adiciona um toque extra de doçura e umidade, criando um equilíbrio delicioso de sabores.</p>
-            </div>
-            <div class="cesta bg-success">
-              <a href="#" class="btn btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Ir para as promoções</a>
-          </div>
-            <div class="card-footer">
-              <small class="text-white">5% Off</small>
-            </div>
-          </div>
+              <h5 class="card-title">Café expresso</h5>
+          <h1>R$9,60</h1>
+          <p class="card-text">O café expresso tem um sabor intenso e encorpado, com notas robustas e amargas. Sua essência é marcada por uma rica concentração de café, que oferece uma experiência de sabor profundo e estimulante. É uma bebida apreciada por sua complexidade e energia revigorante.</p>
+          <div class="cesta bg-success text-center">
+            <a href="#" class="btn btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Continuar em promoções</a>
         </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/croissant.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title">Croissant de queijo provolone</h4>
-              <h1>R$27,90</h1>
-              <p class="card-text">O croissant de provolone pode ser apreciado sozinho como um lanche delicioso ou como acompanhamento em uma refeição. Ele é uma opção versátil que pode ser servida em diferentes ocasiões, desde um café da manhã especial até um lanche rápido ou parte de um brunch.</p>
-            </div>
-            <div class="cesta bg-success">
-            <a href="#" class="btn btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Ir para as promoções</a>
-        </div>
-            <div class="card-footer">
-              <small class="text-white">10% Off</small>
+        <div class="off">
+          <div class="card-footer">
+            <medium class="text-dark">10% Off</medium>
+          </div>
             </div>
           </div>
         </div>
       </div>
 
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/sorvete.jpg" class="card-img-top" alt="Sorvete">
+            <div class="card-body">
+              <h5 class="card-title">Sorvete de baunilha com caramelo</h5>
+          <h1>R$14,90</h1>
+          <p class="card-text">O sorvete de baunilha com caramelo é uma fusão divina de cremosidade suave, baunilha delicada e caramelo rico. Cada colher revela uma harmonia perfeita entre o doce caramelizado e o sabor aveludado da baunilha, proporcionando uma experiência indulgente.</p>
+          <div class="cesta bg-success text-center">
+            <a href="#" class="btn btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Continuar em promoções</a>
+        </div>
+        <div class="off">
+          <div class="card-footer">
+            <medium class="text-dark">10% Off</medium>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/croissant.jpg" class="card-img-top" alt="Croissant">
+            <div class="card-body">
+              <h5 class="card-title">Croissant de queijo provolone</h5>
+          <h1>R$9,90</h1>
+          <p class="card-text">O croissant de provolone oferece um sabor único e delicioso, com uma mistura de queijo provolone derretido e a massa amanteigada e leve do croissant. É uma combinação salgada e reconfortante, perfeita para um lanche satisfatório e saboroso.</p>
+          <div class="cesta bg-success text-center">
+            <a href="#" class="btn btn text-light " data-bs-toggle="modal" data-bs-target="#exampleModal">Continuar em promoções</a>
+        </div>
+        <div class="off">
+          <div class="card-footer">
+            <medium class="text-dark">5% Off</medium>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/bolo.jpg" class="card-img-top" alt="Bolo">
+            <div class="card-body">
+              <h5 class="card-title">Bolo mousse de chocolate e creme de baunilha</h5>
+          <h1>R$14,50</h1>
+          <p class="card-text"> bolo mousse de chocolate e creme de baunilha oferece uma combinação indulgente de sabores, com o chocolate rico e aveludado complementado pela suavidade e doçura do creme de baunilha. É uma experiência decadente e deliciosa para os amantes de sobremesas.</p>
+          <div class="cesta bg-success text-center">
+            <a href="#" class="btn btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Continuar em promoções</a>
+        </div>
+        <div class="off">
+          <div class="card-footer">
+            <medium class="text-dark">5% Off</medium>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
       <br>
 
       <div class="sobre-café">
-      <h3>Sobre Nós</h3>
+      
+      <div class="sobre-titulo"><h3>Sobre Nós</h3></div>
       <p>A Cafeteria Café Alpino é uma instituição renomada com uma história rica e uma tradição de excelência no serviço de café e hospitalidade. Fundada em 1952 por um grupo de amigos apaixonados por café, a Café Alpino rapidamente se tornou um ponto de encontro popular na cidade de São Paulo, Brasil.
 
         Localizada em uma charmosa esquina no centro da cidade, a cafeteria ganhou reputação não apenas pela qualidade excepcional de seus grãos de café, mas também pelo ambiente acolhedor e pela atenção aos detalhes em seu serviço ao cliente.
@@ -150,14 +188,27 @@
         A Cafeteria Café Alpino tem uma história de ser um ponto de encontro para artistas, intelectuais e moradores locais, proporcionando um espaço vibrante para conversas animadas, discussões culturais e momentos de descontração. Ao longo dos anos, a Café Alpino testemunhou muitos eventos importantes na vida da cidade e tornou-se uma parte integrante da comunidade local.
         
         Com uma dedicação contínua à qualidade, tradição e inovação, a Cafeteria Café Alpino continua a ser um destino icônico para os amantes de café e um símbolo duradouro da cultura cafeicultora brasileira.</p>
-        </div>  
+        </div>
+
+        <figure class="figure">
+          <img src="img/café1.jpg" class="figure-img img-fluid rounded" alt="...">
+         
+        </figure>
+
+        <figure class="figure">
+          <img src="img/café2.jpg" class="figure-img img-fluid rounded" alt="...">
+       
+        </figure>
+
+        <figure class="figure">
+          <img src="img/café3.jpg" class="figure-img img-fluid rounded" alt="...">
+        </figure>
 
     <br>
 
     <div class="rodapé">
     <footer class="container-fluid p-2 text-center">
         <p>CaféAlpino@copyright2024</p>
-    </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
     </footer>
